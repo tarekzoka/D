@@ -8,7 +8,7 @@
 wait
 
 opkg install --force-overwrite  
-"https://raw.githubusercontent.com/tarekzoka/D/main/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk"
+https://raw.githubusercontent.com/tarekzoka/D/main/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
 wait
 opkg install --force-overwrite /tmp/*.ipk
 wait
