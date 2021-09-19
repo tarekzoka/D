@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 
-# SCRIPT : DOWNLOAD AND INSTALL D #
+# SCRIPT : DOWNLOAD AND INSTALL xcplugin #
 # 
 # Command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh #
 
