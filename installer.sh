@@ -1,18 +1,18 @@
 #!/bin/sh
 
 # 
-# SCRIPT : DOWNLOAD AND INSTALL xcplugin #
+# SCRIPT : DOWNLOAD AND INSTALL D #
 # 
-# Command: wget https://raw.githubusercontent.com/emilnabil/xcplugin/main/installer.sh -O - | /bin/sh #
+# Command: wget https://raw.githubusercontent.com/emilnabil/D/main/installer.sh -O - | /bin/sh #
 ######## 
 # Plugin	... xcplugin
 PACKAGE_DIR='xcplugin/main/'
-MY_IPK="enigma2-plugin-extensions-xcplugin-forever_1.6_all.ipk"
-MY_DEB="enigma2-plugin-extensions-xcplugin-forever_1.6_all.deb"
+MY_IPK="enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk"
+MY_DEB="enigma2-plugin-extensions-xcplugin-forever_1.7_all.deb"
 # Auto ... Do not change
 
 # Decide : which package ?
-MY_MAIN_URL="https://raw.githubusercontent.com/emilnabil/"
+MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoa/main/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk"
 if which dpkg > /dev/null 2>&1; then
 	MY_FILE=$MY_DEB
 	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_DEB
@@ -25,7 +25,7 @@ MY_TMP_FILE="/tmp/"$MY_FILE
 echo ''
 echo 'welcome to xcplugin'
 echo '**  STARTED  **'                     
-echo "**  Uploaded by: Emil_Nabil  **"                 
+echo "**  Uploaded by: TAREK_ZOK  **"                 
 echo "WELCOME TO xcplugin"
 echo ''
 
