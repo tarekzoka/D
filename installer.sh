@@ -6,7 +6,7 @@
 # Command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh #
 ######## 
 # Plugin	D
-PACKAGE_DIR='xcplugin/main/'
+PACKAGE_DIR='D/main/'
 MY_IPK="enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk"
 MY_DEB="enigma2-plugin-extensions-xcplugin-forever_1.7_all.deb"
 # Auto ... Do not change
