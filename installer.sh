@@ -3,7 +3,7 @@
 # 
 # SCRIPT : DOWNLOAD AND INSTALL D #
 # 
-# Command: wget https://raw.githubusercontent.com/emilnabil/D/main/installer.sh -O - | /bin/sh #
+# Command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh #
 ######## 
 # Plugin	... D
 PACKAGE_DIR='xcplugin/main/'
