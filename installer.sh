@@ -9,7 +9,7 @@ wait
 #
 MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/D/main/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk"
 wait
- opkg install enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
+opkg install --force-overwrite enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
 #!/bin/sh
 opkg install --force-overwrite /tmp/xcplugin-forever_1.7_all.ipk
 wait
