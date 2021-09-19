@@ -4,7 +4,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL D #
 # 
 # Command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh #
-wait
+
 
 #!/bin/sh
 #
