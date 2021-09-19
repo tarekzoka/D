@@ -7,7 +7,7 @@
 ######## 
 # Plugin	D
 PACKAGE_DIR='D/main/'
-MY_IPK="enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk"
+MY_IPK="enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipkk"
 MY_DEB="enigma2-plugin-extensions-xcplugin-forever_1.7_all.deb"
 # Auto ... Do not change
 
