@@ -57,7 +57,7 @@ if [ -f $MY_TMP_FILE ]; then
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
 		echo "   >>>>   SUCCESSFULLY INSTALLED   <<<<"
-  echo " **     uploaded by EMIL_NABIL *"
+  echo " **     uploaded byTAREK_ZOK *"
 		echo ''
 		echo "   >>>>         RESTARING         <<<<"
 		if which systemctl > /dev/null 2>&1; then
