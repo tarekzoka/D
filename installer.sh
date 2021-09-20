@@ -15,7 +15,7 @@ opkg install --force-overwrite /tmp/xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
-opkg install /var/volatile/tmp/xcplugin-forever_1.7_all.ipk 
+rm -r /var/volatile/tmp/xcplugin-forever_1.7_all.ipk 
 echo "========================================================================" 	
 echo ". WELCOME TO PLUGIN XCPLUGIN "
 echo $MY_EM
@@ -28,4 +28,4 @@ wait 3;
 init 4
 init 3
 exit 0
-rm -r
+
