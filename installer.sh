@@ -13,7 +13,7 @@ echo $MY_EM
 ######      INSTALL PLUGIN D ###
 #!/bin/sh
 #
-opkg install --force-overwrite  /tmp/xcplugin-forever_1.7_all.ipk
+opkg install --force-overwrite/tmp/xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
