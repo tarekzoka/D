@@ -11,7 +11,7 @@ wget -O /tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/tar
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN D ###
-opkg install --force-overwrite /tmp/xcplugin-forever_1.7_all.ipk
+opkg install --force-overwrite tmp/xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
