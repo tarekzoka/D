@@ -7,7 +7,7 @@
 #command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh
  #
 MY_EM="*********************************************************************************"
-wget -O /var/volatile/tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/tarekzoka/D/main/xcplugin-forever_1.7_all.ipk"
+wget -O /tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/tarekzoka/D/main/xcplugin-forever_1.7_all.ipk"
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN D ###
@@ -15,7 +15,7 @@ opkg install --force-overwrite /tmp/xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
-rm -r /var/volatile/tmp/xcplugin-forever_1.7_all.ipk 
+rm -r /tmp/xcplugin-forever_1.7_all.ipk 
 echo "========================================================================" 	
 echo ". WELCOME TO PLUGIN XCPLUGIN "
 echo $MY_EM
