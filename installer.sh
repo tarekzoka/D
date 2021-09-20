@@ -10,7 +10,7 @@ MY_EM="*************************************************************************
 wget -O /var/volatile/tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/tarekzoka/D/main/xcplugin-forever_1.7_all.ipk"
 wait
 echo $MY_EM
-######      INSTALL PLUGIN Xcplugin ###
+######      INSTALL PLUGIN D ###
 opkg install --force-overwrite /tmp/xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
