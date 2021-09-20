@@ -1,7 +1,7 @@
   
 #!/bin/sh
 #
-# SCRIPT : DOWNLOAD AND INSTALL D
+# SCRIPT :  INSTALL D
 #
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh
