@@ -5,7 +5,7 @@
 #
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekhnfy/D/main/installer.sh -O - | /bin/sh
- opkg install --force-overwrite  https://github.com/tarekzoka/D/قraw/main/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
+ opkg install --force-overwrite  https://github.com/tarekhnfy/D/قraw/main/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
 wait
 sleep 2;
 exit 0
