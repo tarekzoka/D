@@ -7,7 +7,7 @@
 #command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh
  #
 MY_EM="*********************************************************************************"
-wget -O /var/volatile/tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/emilnabil/D/main/xcplugin-forever_1.7_all.ipk"
+wget -O /var/volatile/tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/tarekzoka/D/main/xcplugin-forever_1.7_all.ipk"
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN Xcplugin ###
