@@ -1,7 +1,7 @@
   
 #!/bin/sh
 #
-# SCRIPT :  INSTALL D
+# SCRIPT :  opkg install D
 #
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh
