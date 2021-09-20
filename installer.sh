@@ -11,7 +11,7 @@ wget -O /var/volatile/tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubuserco
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN Xcplugin ###
-opkg install --force-overwrite /tmp/*.ipk
+opkg install --force-overwrite /tmp/xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
