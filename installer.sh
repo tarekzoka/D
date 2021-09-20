@@ -1,7 +1,7 @@
   
 #!/bin/sh
 #
-# SCRIPT :  opkg install D
+# SCRIPT :  opkg install enigma2-plugin-extensions-xcplugin-forever_1.7_all.ip
 #
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekzoka/D/main/installer.sh -O - | /bin/sh
