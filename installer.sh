@@ -10,7 +10,8 @@ MY_EM="*************************************************************************
 wget -O /tmp/xcplugin-forever_1.7_all.ipk "https://raw.githubusercontent.com/tarekzoka/D/main/xcplugin-forever_1.7_all.ipk"
 wait
 echo $MY_EM
-######      INSTALL PLUGIN D ###
+######      INSTALL PLUGIN xcplugin ###
+
 opkg install --force-overwrite/tmp/enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
 wait
 echo $MY_EM
